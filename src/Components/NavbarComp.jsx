@@ -12,11 +12,11 @@ function NavbarComp() {
 
     <div>
       {/* <h1>navbar</h1> */}
-      <Navbar expand="lg" className="bg-body-tertiarymp">
+      <Navbar expand="lg" className="bg-dark">
         <Container>
-          <Navbar.Brand style={{fontSize:"2rem"}}href="#home">Shopping Cart</Navbar.Brand>
+          <Navbar.Brand style={{fontSize:"2rem",color:"white"}}href="#home">Shopping Cart</Navbar.Brand>
          
-          <Nav><Nav.Link style={{fontSize:"1.5rem"}} to="/" as={Link}>Home</Nav.Link></Nav>          <Navbar.Toggle/>
+          <Nav><Nav.Link style={{fontSize:"1.5rem", color:"white"}} to="/" as={Link}>Home</Nav.Link></Nav>          <Navbar.Toggle/>
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text >
             <Nav.Link style={{fontSize:"2rem", color:"red"}} to="/cart" as={Link}>Cart-item={ cartProducts.length}</Nav.Link>
